@@ -1,0 +1,9 @@
+:root {
+  --vp-c-brand: var(--vp-c-gray);
+  --vp-c-brand-light: var(--vp-c-gray-light-1);
+  --vp-c-brand-lighter: var(--vp-c-gray-light-2);
+}
+
+.aside {
+  display: none !important;
+}

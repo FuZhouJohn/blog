@@ -2,11 +2,10 @@
 layout: home
 
 hero:
-  name: VuePress
-  text: Vite & Vue powered static site generator.
-  tagline: Lorem ipsum...
+  text: I am Zhuang Jinan, Welcome to my Blog.
+  tagline: 我是庄骥南，欢迎来到我的博客
   actions:
     - theme: brand
-      text: Get Started
+      text: Have a look
       link: /blog/
 ---

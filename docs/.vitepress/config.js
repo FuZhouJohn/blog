@@ -1,4 +1,4 @@
-import { defineConfig } from "vitepress";
+import { defineConfig, useData } from "vitepress";
 
 export default defineConfig({
   title: "Zhuang Jinan",
@@ -19,4 +19,9 @@ export default defineConfig({
     },
   },
   lastUpdated: true,
+  head: [
+    ["link", { rel: "icon", href: "/21.svg" }],
+    ["link", { rel: "stylesheet", type: "text/css", href: "/style.css" }],
+  ],
 });
+
