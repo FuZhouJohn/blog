@@ -20,6 +20,8 @@ const middleNode = function (head) {
 };
 ```
 
+- [123](/blog/)
+
 ## 锁定 npm 包安装时的版本号
 
 _2022/05/27_

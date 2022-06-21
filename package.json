@@ -12,8 +12,23 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^18.0.0",
     "sass": "^1.52.3",
     "vitepress": "^1.0.0-alpha.2",
     "vue": "^3.2.37"
+  },
+  "dependencies": {
+    "@vue/theme": "^1.0.2",
+    "dayjs": "1.11.3",
+    "gray-matter": "4.0.3"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "react",
+        "react-dom",
+        "@types/react"
+      ]
+    }
   }
 }

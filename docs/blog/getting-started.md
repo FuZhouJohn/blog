@@ -1,11 +1,6 @@
-# Getting Stared
+---
+title: Getting Started
+date: 2021-06-20T16:00:00.000+00:00
+---
 
-<script setup>
-import { useData,use } from 'vitepress'
-
-const { theme } = useData()
-</script>
-
-<template>
-  <h1>{{ theme.footer.copyright }}</h1>
-</template>
+123
