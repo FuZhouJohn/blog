@@ -25,7 +25,6 @@ const format = (date) => {
     max-width: 1024px;
     margin: 50px auto 0;
 
-
     .blog-list {
         width: 100%;
 
@@ -55,11 +54,7 @@ const format = (date) => {
                 border-top: 1px dashed var(--vp-c-brand-lighter);
                 margin: 0 10px;
             }
-
-
         }
-
-
     }
 }
 </style>
