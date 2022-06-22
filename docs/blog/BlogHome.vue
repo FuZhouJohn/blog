@@ -23,10 +23,11 @@ const format = (date) => {
 .blog-home {
     display: flex;
     max-width: 1024px;
-    margin: 50px auto 0;
+    margin: 20px auto 0;
 
     .blog-list {
         width: 100%;
+        padding: 0 20px;
 
         .blog {
             display: flex;
