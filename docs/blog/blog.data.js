@@ -16,7 +16,7 @@ const readFiles = (srcDir) => {
   const files = fs.readdirSync(srcDir);
   const result = [];
   for (const name of files) {
-    if (/\.md$/.test(name) && name !== "index.md") {
+    if (/[^unfinshed]\.md$/.test(name) && name !== "index.md") {
       result.push({ name: path.basename(name, ".md"), ...parsePage(name) });
     }
   }

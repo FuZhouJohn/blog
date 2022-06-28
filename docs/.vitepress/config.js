@@ -1,4 +1,4 @@
-import { defineConfig, useData } from "vitepress";
+import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "Zhuang Jinan",
@@ -12,16 +12,12 @@ export default defineConfig({
     ],
     logo: "/21.svg",
     socialLinks: [{ icon: "github", link: "https://github.com/FuZhouJohn" }],
-    sidebar: {},
+    sidebar: {    },
     footer: {
       message: "Released under the MIT License.",
       copyright: "Copyright © 2022-present Zhuang Jinan",
     },
   },
   lastUpdated: true,
-  head: [
-    ["link", { rel: "icon", href: "/21.svg" }],
-    ["link", { rel: "stylesheet", type: "text/css", href: "/style.css" }],
-  ],
+  head: [["link", { rel: "icon", href: "/21.svg" }]],
 });
-

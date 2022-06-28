@@ -3,8 +3,6 @@ layout: doc
 title: Notes
 ---
 
-# Notes
-
 ## 查找单链表中间点
 
 _2022/06/17_
